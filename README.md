@@ -1,8 +1,32 @@
 ![OneButtonPrompt](https://github.com/AIrjen/OneButtonPrompt/blob/main/images/background.png "These images are auto generated, see all generated prompt below")
 
+---
+# One Button Prompt 中文汉化版
+
+## 🎯 汉化说明
+
+此仓库是 OneButtonPrompt 插件的中文汉化版本，专门为 ComfyUI 用户提供完整的中文界面体验。
+
+### 汉化内容
+- ✅ **节点类别汉化**："OneButtonPrompt" → "一键提示"
+- ✅ **节点显示名称汉化**：所有节点名称翻译为中文
+- ✅ **输入字段标签汉化**：如"insanitylevel" → "疯狂等级"等
+- ✅ **下拉菜单选项汉化**：艺术家、图像类型、主体、性别等所有选项
+- ✅ **输出信息汉化**：控制台输出信息翻译为中文
+- ✅ **中文到英文映射**：确保底层功能正常工作
+
+### 技术方案
+- 界面显示中文选项
+- 通过映射字典将用户选择的中文选项转换回英文值
+- 保持原有功能不变
+
+### 安装使用
+1. 将本仓库克隆到 ComfyUI 的 `custom_nodes` 目录
+2. 重启 ComfyUI
+3. 在节点列表中找到"一键提示"类别
 
 ---
-# One Button Prompt
+# One Button Prompt (Original Description)
 
 # Summary
 
