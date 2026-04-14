@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location 'd:\\\\AI\\\\ComfyUI_windows\\\\V0\\.7\\.0\\\\ComfyUI'; python -c 'from pathlib import Path; p=Path\\(\"custom_nodes/onebuttonprompt/OneButtonPromptNodes\\.py\"\\); t=p\\.read_text\\(encoding=\"utf-8\"\\); terms=\\[\"filename_prefix\",\"One Button Prompt\",\"CATEGORY = \\\\\"OneButtonPrompt\\\\\"\",\"OneButton Preset\",\"Create Prompt Variant\",\"Save Prompt To File\",\"Auto Negative Prompt\",\"One Button Flufferize\",\"One Button SuperPrompt\"\\]; print\\(\"\\\\n\"\\.join\\(term for term in terms if term in t\\)\\)'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
